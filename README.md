@@ -3,11 +3,11 @@
 
 ## Overview
 
-A script that deletes similar images through vectorization and clustering of images.
+A script deletes similar images through vectorization and clustering of images.
 
 The following options are avalidable for vectorization:
 
-- Middle layer output of [Xception by keras-application](https://keras.io/ja/applications/#xception)
+- Middle layer of [Xception by keras-application](https://keras.io/ja/applications/#xception)
 - [wavelet hash by Imagehash](https://github.com/JohannesBuchner/imagehash)
 
 [Clustering by KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
